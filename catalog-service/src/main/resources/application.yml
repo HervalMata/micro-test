@@ -10,8 +10,13 @@ server:
 spring:
   application:
     name: catalog-service
-#  config:
-#    import: "optional:configserver:http://localhost:8888"
+  datasource:
+    username: postgres
+    password: math3036
+    url: jdbc:postgresql://localhost:5432/microdb_catalog
+    hikari:
+      connection-timeout: 2000
+      maximum-pool-size: 5
   cloud:
     config:
       uri: http://localhost:8888
