@@ -5,26 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e1f5568-ae96-4523-9b84-0c1ef7836c6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/crislacos/microservices/catalogservice/config/DataConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application-integration.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/db/migration/V1__initial_schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/db/migration/V2__add_publisher_column.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/crislacos/microservices/catalogservice/domain/BookRepositoryJdbcTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/crislacos/microservices/catalogservice/domain/BookServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/catalog-service/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-service/.github/workflows/commit-stage.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-deployment/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro-deployment/docker/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my-java-image/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/crislacos/microservices/catalogservice/demo/BookDataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/crislacos/microservices/catalogservice/demo/BookDataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/crislacos/microservices/catalogservice/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/crislacos/microservices/catalogservice/domain/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/crislacos/microservices/catalogservice/domain/BookAlreadyExistsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/crislacos/microservices/catalogservice/domain/BookAlreadyExistsException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/crislacos/microservices/catalogservice/domain/BookNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/crislacos/microservices/catalogservice/domain/BookNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/crislacos/microservices/catalogservice/domain/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/crislacos/microservices/catalogservice/domain/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/crislacos/microservices/catalogservice/domain/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/java/com/crislacos/microservices/catalogservice/domain/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/java/com/crislacos/microservices/catalogservice/persistence/InMemoryBookRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/crislacos/microservices/catalogservice/CatalogServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/crislacos/microservices/catalogservice/CatalogServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/crislacos/microservices/catalogservice/domain/BookValidationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/crislacos/microservices/catalogservice/domain/BookValidationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/catalog-service/src/test/java/com/crislacos/microservices/catalogservice/web/BookJsonTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/src/test/java/com/crislacos/microservices/catalogservice/web/BookJsonTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/catalog-service/.github/workflows/commit-stage.yml" beforeDir="false" afterPath="$PROJECT_DIR$/catalog-service/.github/workflows/commit-stage.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +23,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -72,7 +60,7 @@
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/MICRO/Documents/Projects/micro-test/catalog-service/src/main/resources/db/migration",
+    "last_opened_file_path": "C:/Users/MICRO/Documents/Projects/micro-test/config-service",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,6 +73,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MICRO\Documents\Projects\micro-test\config-service" />
+      <recent name="C:\Users\MICRO\Documents\Projects\micro-test\catalog-service\src\test\resources" />
       <recent name="C:\Users\MICRO\Documents\Projects\micro-test\config-repo" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -125,7 +115,8 @@
       <workItem from="1695828593022" duration="1272000" />
       <workItem from="1696352296102" duration="232000" />
       <workItem from="1696394887071" duration="6774000" />
-      <workItem from="1696516247478" duration="13086000" />
+      <workItem from="1696516247478" duration="16944000" />
+      <workItem from="1696646634778" duration="9684000" />
     </task>
     <servers />
   </component>
