@@ -3,7 +3,7 @@ on: push
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: microbookshop/catalog-service
+  IMAGE_NAME: microbookshop/config-service
   VERSION: latest
 
 jobs:
